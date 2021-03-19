@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #C5DDEB;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  padding: 40px 0;
+  color: white;
+}
+
+.chat {
+  position: absolute;
+  left: 35%;
+  width: 490px;
+  background: #F2F5F8;
+  border-radius: 5px;
+  color: #434651;
+}
+
+.chat .chat-header {
+  padding: 20px;
+  border-bottom: 2px solid white;
+  background-color: rgba(138, 109, 73, 0.15);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.chat .chat-header img {
+  float: left;
+  border-radius: 100px;
+  border: 2px solid #86BB71 
+}
+.chat .chat-header .chat-about {
+  float: left;
+  padding-left: 18px;
+  margin-top: 6px;
+}
+.chat .chat-header .chat-with {
+  font-weight: bold;
+  font-size: 20px;
+}
+.chat .chat-header .chat-online-status {
+  color: #92959E;
+}
+
+.chat .chat-history {
+  padding: 30px 30px 20px;
+  border-bottom: 2px solid white;
+  overflow-y: scroll;
+  height: 575px;
+}
+.chat .chat-history .message-data {
+  color: #a8aab1;
+  margin-bottom: 15px;
+}
+.chat .chat-history .message-data-time {
+  color: #a8aab1;
+  padding-left: 15px;
+}
+.chat .chat-history .message {
+  color: white;
+  padding: 10px 20px;
+  line-height: 26px;
+  font-size: 16px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  width: 90%;
+  position: relative;
+}
+
+.chat .chat-history .my-message {
+  background: #86BB71;
+}
+.chat .chat-history .other-message {
+  background: #94C2ED;
+}
+.chat .chat-history .other-message:after {
+  border-bottom-color: #94C2ED;
+  left: 93%;
+}
+.chat .chat-message {
+  padding: 30px;
+  background-color: rgba(138, 109, 73, 0.15);
+}
+.chat .chat-message textarea {
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  font: 14px/22px "Lato", Arial, sans-serif;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  resize: none;
+}
+
+.chat .chat-message button {
+  float: right;
+  color: #94C2ED;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #F2F5F8;
+}
+.chat .chat-message button:hover {
+  color: #75b1e8;
+}
+
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
