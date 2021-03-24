@@ -4,7 +4,7 @@
 Made with CSS, HTML, JavaScript, and JQEURY.
 
 
-![chatbox](https://imgur.com/ssRQLeU)
+![chatbox](https://imgur.com/ssRQLeU.png)
 
 
 
