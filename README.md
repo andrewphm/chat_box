@@ -9,4 +9,4 @@ Made with CSS, HTML, JavaScript, and JQEURY.
 
 
 
-Click [here](www.andrewpham.ca/chat_box) to try it out.
+Click [here](http://www.andrewpham.ca/chat_box) to try it out.
